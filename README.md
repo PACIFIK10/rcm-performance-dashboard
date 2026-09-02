@@ -1,6 +1,6 @@
 # Revenue Cycle Performance Analytics Dashboard
 
-Tableau dashboard tracking core healthcare revenue cycle KPIs — denial rates, AR aging, first-pass resolution, and forecast accuracy — backed by a simulated PostgreSQL claims database.
+Tableau dashboard tracking core healthcare revenue cycle KPIs - denial rates, AR aging, first-pass resolution, and forecast accuracy - backed by a simulated PostgreSQL claims database.
 
 ![Dashboard Overview](dashboard/screenshots/dashboard_overview.png)
 
@@ -45,7 +45,7 @@ Average days between claim submission and payment, by payer. State Medicaid and 
 ### First-Pass Resolution Rate by Specialty
 ![First Pass Resolution Rate](dashboard/screenshots/first_pass_resolution_rate.png)
 
-Share of claims resolved correctly on the first submission — no denial, no resubmission — by provider specialty. Chiropractic Care and Optometry led (~75–80%), benefiting from simpler, standardized claim structures. Plastic & Reconstructive Surgery trailed (~55–58%), reflecting heavier documentation and prior-authorization burden.
+Share of claims resolved correctly on the first submission - no denial, no resubmission - by provider specialty. Chiropractic Care and Optometry led (~75–80%), benefiting from simpler, standardized claim structures. Plastic & Reconstructive Surgery trailed (~55–58%), reflecting heavier documentation and prior-authorization burden.
 
 ### Monthly Forecast vs. Actual Collections
 ![Monthly Forecast vs Actual](dashboard/screenshots/monthly_forecast_vs_actual.png)
